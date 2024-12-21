@@ -1,0 +1,72 @@
+name: eazy_biz
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutterflow_ui: ^0.3.1
+  flutter:
+    sdk: flutter
+  auto_size_text: any
+  cached_network_image: any
+  cached_network_image_platform_interface: any
+  cached_network_image_web: any
+  carousel_slider: any
+  collection: any
+  dropdown_button2: any
+  flutter_animate: any
+  flutter_cache_manager: any
+  font_awesome_flutter: any
+  from_css_color: any
+  go_router: any
+  google_fonts: any
+  intl: any
+  json_path: any
+  page_transition: any
+  path_provider: any
+  path_provider_android: any
+  path_provider_foundation: any
+  path_provider_linux: any
+  path_provider_platform_interface: any
+  path_provider_windows: any
+  provider: any
+  shared_preferences: any
+  shared_preferences_android: any
+  shared_preferences_foundation: any
+  shared_preferences_linux: any
+  shared_preferences_platform_interface: any
+  shared_preferences_web: any
+  shared_preferences_windows: any
+  sqflite: any
+  sqflite_common: any
+  timeago: any
+  url_launcher: any
+  url_launcher_android: any
+  url_launcher_ios: any
+  url_launcher_linux: any
+  url_launcher_macos: any
+  url_launcher_platform_interface: any
+  url_launcher_web: any
+  url_launcher_windows: any
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  lints: ^5.1.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/videos/
+    - assets/audios/
+    - assets/rive_animations/
+    - assets/pdfs/
+    - assets/jsons/

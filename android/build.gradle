@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.0.2" // Version correcte
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Chemin de construction pour tout le projet
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    evaluationDependsOn(":app") // Permet de dépendre de l'application principale
+}
+
+// Tâche de nettoyage
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
